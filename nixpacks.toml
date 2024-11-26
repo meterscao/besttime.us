@@ -1,0 +1,11 @@
+[phases.setup]
+cmds = ["..."]
+
+[phases.install]
+cmds = ["yarn install --frozen-lockfile"]
+
+[start]
+cmd = "yarn start"
+
+[phases.build]
+cmds = []  # 空数组表示跳过构建阶段
